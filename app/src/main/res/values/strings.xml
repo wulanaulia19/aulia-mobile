@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">aulia_mobile</string>
+    <string name="verif">Verification</string>
+    <string name="kode">Kode Berhasil Dikirim!</string>
+    <string name="periksa">Silahkan Periksa Nomor Anda</string>
+    <string name="welcome">Hai! Selamat Datang aulia...</string>
+    <string name="btn">Next</string>
+    <string name="btn2">Kembali</string>
+    <string name="lanjut">Anda telah berada dihalaman 4cute</string>
+</resources>
