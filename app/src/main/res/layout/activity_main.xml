@@ -29,7 +29,7 @@
         android:layout_height="39dp"
         android:backgroundTint="@color/pink"
         android:text="@string/btn"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.465"
