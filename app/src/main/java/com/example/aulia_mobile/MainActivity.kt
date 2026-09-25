@@ -33,9 +33,11 @@ class MainActivity : AppCompatActivity() {
         }
 //        val inputNoTujuan: EditText = findViewById(R.id.inputNoTujuan)
 //        val btnKirim: Button = findViewById(R.id.btnKirim)
-
         binding.button.setOnClickListener {
             val intent = Intent(this, FourthActivity::class.java)
+            intent.putExtra("name", "Politeknik Caltex Riau")
+            intent.putExtra("from", "Rumbai")
+            intent.putExtra("age", 25)
             startActivity(intent)
 //            val nomor = binding.inputNoTujuan.text
 //            Toast.makeText(this, "Pesan berhasil dikirim ke $nomor", Toast.LENGTH_SHORT).show()
