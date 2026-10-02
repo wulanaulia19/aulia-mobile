@@ -13,6 +13,7 @@ import androidx.core.view.WindowInsetsCompat
 import com.example.aulia_mobile.R
 import com.example.aulia_mobile.databinding.ActivityMainBinding
 import com.example.aulia_mobile.pertemuan_4.FourthActivity
+import com.example.aulia_mobile.pertemuan_5.FifthActivity
 
 
 class MainActivity : AppCompatActivity() {
@@ -41,6 +42,11 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
 //            val nomor = binding.inputNoTujuan.text
 //            Toast.makeText(this, "Pesan berhasil dikirim ke $nomor", Toast.LENGTH_SHORT).show()
+        }
+
+        binding.btnToFifth.setOnClickListener {
+            val i = Intent(this, FifthActivity::class.java)
+            startActivity(i)
         }
     }
 }

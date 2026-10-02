@@ -28,7 +28,8 @@
         android:layout_width="224dp"
         android:layout_height="39dp"
         android:backgroundTint="@color/pink"
-        android:text="@string/btn"
+        android:text="Pertemuan 4"
+        android:textStyle="bold"
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -36,5 +37,19 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.445" />
+
+    <Button
+        android:id="@+id/btnToFifth"
+        android:layout_width="220dp"
+        android:layout_height="39dp"
+        android:backgroundTint="@color/pink"
+        android:text="Pertemuan 5"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.523" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
