@@ -44,7 +44,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="WebView"
-                    android:backgroundTint="@color/pink"/>
+                    android:backgroundTint="@color/pink" />
 
                 <!-- Tambahkan konten panjang supaya bisa di-scroll -->
                 <TextView
